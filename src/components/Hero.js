@@ -8,7 +8,11 @@ function Hero() {
     return (
         <section className="bg-indigo-1000 py-20 rounded-b-[50px]">
             <div className="w-4/5 flex justify-center lg:justify-between items-center mx-auto">
-                <div className="text-white">
+                <div
+                    className="text-white"
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                >
                     <p className="text-xs md:text-base font-semibold">
                         Start Envesting & Earn Money
                     </p>
