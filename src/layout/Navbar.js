@@ -16,8 +16,8 @@ function Navbar() {
 
     return (
         <nav
-            className={`sticky top-0 py-5 ${
-                position >= 250
+            className={`sticky top-0 py-5 z-50 ${
+                position >= 50
                     ? "bg-white text-indigo-1000 shadow-bottom"
                     : "bg-indigo-1000"
             }`}
@@ -25,13 +25,13 @@ function Navbar() {
             <div className="w-[95%] sm:w-4/5 flex justify-between items-center mx-auto">
                 <Link to="/" className="flex items-center gap-x-1.5">
                     <img
-                        src={position >= 250 ? blue : white}
+                        src={position >= 50 ? blue : white}
                         alt=""
                         className="w-10"
                     />
                     <h3
                         className={`text-2xl font-semibold ${
-                            position >= 250 ? "text-indigo-1000" : "text-white"
+                            position >= 50 ? "text-indigo-1000" : "text-white"
                         }`}
                     >
                         Crypton
@@ -40,7 +40,7 @@ function Navbar() {
 
                 <ul
                     className={`hidden md:flex gap-x-5 text-sm font-semibold ${
-                        position >= 250 ? "text-indigo-1000" : "text-white"
+                        position >= 50 ? "text-indigo-1000" : "text-white"
                     }`}
                 >
                     <li
@@ -143,7 +143,7 @@ function Navbar() {
                 <Link
                     to="/login"
                     className={`hidden md:block px-10 py-3.5 rounded-full ${
-                        position >= 250
+                        position >= 50
                             ? "bg-blue-1000 text-white hover:bg-indigo-1000 hover:text-white"
                             : "bg-white hover:bg-blue-1000 hover:text-white"
                     }`}
