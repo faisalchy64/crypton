@@ -27,7 +27,7 @@ function Hero() {
                     </h1>
                     <p className="text-[10px] md:text-base mb-[50px]">
                         Invest your spare change in Bitcoin and save with <br />
-                        crypto to e arn interest in real time.
+                        crypto to earn interest in real time.
                     </p>
 
                     <Link

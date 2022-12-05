@@ -79,17 +79,23 @@ function Navbar() {
                     onClick={() => setToggle(!toggle)}
                 >
                     <span
-                        className={`block absolute h-[2.5px] w-[30px] bg-white transform transition duration-500 ease-in-out ${
+                        className={`block absolute h-[2.5px] w-[30px] ${
+                            position >= 50 ? "bg-indigo-1000" : "bg-white"
+                        } transform transition duration-500 ease-in-out ${
                             toggle ? "rotate-45" : "-translate-y-1.5"
                         }`}
                     ></span>
                     <span
-                        className={`block absolute h-[2.5px] w-[30px] bg-white transform transition duration-500 ease-in-out ${
+                        className={`block absolute h-[2.5px] w-[30px] ${
+                            position >= 50 ? "bg-indigo-1000" : "bg-white"
+                        } transform transition duration-500 ease-in-out ${
                             toggle ? "opacity-0" : ""
                         }`}
                     ></span>
                     <span
-                        className={`block absolute h-[2.5px] w-[30px] bg-white transform transition duration-500 ease-in-out ${
+                        className={`block absolute h-[2.5px] w-[30px] ${
+                            position >= 50 ? "bg-indigo-1000" : "bg-white"
+                        } transform transition duration-500 ease-in-out ${
                             toggle ? "-rotate-45" : "translate-y-1.5"
                         }`}
                     ></span>
