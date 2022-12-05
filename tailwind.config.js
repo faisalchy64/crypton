@@ -6,6 +6,7 @@ module.exports = {
             backgroundColor: {
                 "indigo-1000": "rgb(36, 18, 106)",
                 "blue-1000": "rgb(62, 128, 255)",
+                "blue-5000": "rgb(244, 247, 250)",
             },
             textColor: {
                 "indigo-1000": "rgb(36, 18, 106)",

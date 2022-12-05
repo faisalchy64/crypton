@@ -13,11 +13,11 @@ function Hero() {
                     data-aos="fade-up"
                     data-aos-duration="3000"
                 >
-                    <p className="text-xs md:text-base font-semibold">
+                    <p className="font-semibold">
                         Start Envesting & Earn Money
                     </p>
                     <h1 className="text-3xl md:text-5xl font-bold md:leading-[60px] my-5">
-                        Say Goodbye To <br /> Idle{" "}
+                        Say Goodbye <br /> To Idle{" "}
                         <span
                             style={{ backgroundImage: `url(${span})` }}
                             className="bg-no-repeat bg-bottom"
@@ -25,8 +25,9 @@ function Hero() {
                             Money.
                         </span>
                     </h1>
-                    <p className="text-[10px] md:text-base mb-[50px]">
-                        Invest your spare change in Bitcoin and save with <br />
+                    <p className="text-sm mb-[50px]">
+                        Invest your spare change in Bitcoin and save with{" "}
+                        <br className="hidden md:block" />
                         crypto to earn interest in real time.
                     </p>
 
