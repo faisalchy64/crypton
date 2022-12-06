@@ -1,6 +1,7 @@
 import Features from "../components/Features";
 import Hero from "../components/Hero";
 import Step from "../components/Step";
+import Team from "../components/Team";
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
             <Hero />
             <Features />
             <Step />
+            <Team />
         </>
     );
 }
