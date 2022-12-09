@@ -17,7 +17,7 @@ function Faq() {
                 </p>
             </div>
             <div className="w-4/5 flex flex-col md:flex-row gap-5 mx-auto">
-                <div className="w-1/2 flex flex-col gap-5">
+                <div className="w-full md:w-1/2 flex flex-col gap-5">
                     <Accordion
                         title="What is cryptocurrency?"
                         answer="Cryptocurrency is a digital or virtual currency that uses cryptography for security and is decentralized, meaning it is not controlled by a central authority such as a government or financial institution. Cryptocurrencies are based on a distributed ledger technology called blockchain, which allows for secure and transparent transactions. Some popular cryptocurrencies include Bitcoin and Ethereum."
@@ -31,7 +31,7 @@ function Faq() {
                         answer="Blockchain is a distributed ledger technology that allows for secure and transparent record-keeping. It is a decentralized system that allows for the recording of transactions across a network of computers, without the need for a central authority. Each transaction on a blockchain is verified by the network through a process called mining, and once verified, it is added to a block, which is added to the chain of previous blocks. This creates an immutable and tamper-evident record of all transactions on the network. Blockchain technology is used in many industries, including finance, supply chain management, and the public sector."
                     />
                 </div>
-                <div className="w-1/2 flex flex-col gap-5">
+                <div className="w-full md:w-1/2 flex flex-col gap-5">
                     <Accordion
                         title="How do I buy and sell cryptocurrency?"
                         answer="To buy and sell cryptocurrency, you will need to use a cryptocurrency exchange. A cryptocurrency exchange is a platform that allows you to buy, sell, and trade cryptocurrencies. Some popular exchanges include Coinbase and Binance. Before you can buy and sell cryptocurrency on an exchange, you will need to create an account and verify your identity. This typically involves providing personal information and proof of identity, such as a government-issued ID. Once your account is set up and verified, you can link your bank account or credit card to the exchange and start buying and selling cryptocurrency. Some exchanges also allow you to buy cryptocurrency using other payment methods, such as PayPal."

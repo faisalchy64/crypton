@@ -20,7 +20,7 @@ function Features() {
                 data-aos="fade-up"
                 data-aos-duration="3000"
             >
-                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 antialiased hover:border-t-2 hover:border-b-2  hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
+                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2  hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
                     <img
                         src={exchange}
                         alt=""
@@ -30,10 +30,8 @@ function Features() {
                         Instant Exchage
                     </h4>
                     <p className="text-center text-sm text-gray-500 leading-[30px]">
-                        Crypto instant exchange allows users to quickly and
-                        securely convert one cryptocurrency to another at
-                        real-time market prices with no registration or account
-                        needed.
+                        Crypton instant exchange is a service that allows users
+                        to buy and sell cryptocurrencies quickly and easily.
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
@@ -42,9 +40,9 @@ function Features() {
                         Safe & Secure
                     </h4>
                     <p className="text-center text-sm text-gray-500 leading-[30px]">
-                        Crypto wallets are secure and safe, offering multi-level
-                        encryption, two-factor authentication, and secure
-                        backups, making sure your funds and data stay safe.
+                        The technology behind cryptocurrencies, known as
+                        blockchain, is designed to be secure and to protect the
+                        integrity of transactions.
                     </p>
                 </div>
                 <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
