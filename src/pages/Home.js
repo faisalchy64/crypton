@@ -1,3 +1,4 @@
+import Faq from "../components/Faq";
 import Features from "../components/Features";
 import Hero from "../components/Hero";
 import Step from "../components/Step";
@@ -12,6 +13,7 @@ function Home() {
             <Step />
             <Team />
             <Testimonial />
+            <Faq />
         </>
     );
 }
