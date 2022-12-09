@@ -32,13 +32,11 @@ function Step() {
                             Create Your Wallet
                         </h4>
                         <p className="text-sm text-center text-gray-500 leading-[30px]">
-                            {`The first step is to get a wallet to store your
-                            Bitcoin. A Bitcoin wallet is a secure digital wallet
-                            used to store, send and receive Bitcoin.`.slice(
-                                0,
-                                151
-                            )}
-                            ...
+                            Create a wallet to store, send, and receive digital
+                            currency. Securely store your funds, instantly
+                            exchange between different digital assets, and
+                            manage your transactions with a user-friendly
+                            interface.
                         </p>
                     </div>
                 </div>
@@ -51,11 +49,11 @@ function Step() {
                             Make Payment
                         </h4>
                         <p className="text-sm text-center text-gray-500 leading-[30px]">
-                            {`Once you have a Bitcoin wallet, you can use a
-                            traditional payment method such as a credit card,
-                            bank transfer (ACH), or debit card to buy Bitcoins
-                            on a Bitcoin exchange.`.slice(0, 151)}
-                            ...
+                            To make a payment, you must first select the type of
+                            cryptocurrency, enter the amount to be sent, and
+                            provide the recipient's wallet address. Once the
+                            transaction is approved, the coins are transferred
+                            from your wallet to the recipient's wallet.
                         </p>
                     </div>
                 </div>
@@ -65,17 +63,14 @@ function Step() {
                     </h4>
                     <div>
                         <h4 className="text-lg font-bold text-center text-indigo-1000 mb-5">
-                            Make Payment
+                            Buy & Sell
                         </h4>
                         <p className="text-sm text-center text-gray-500 leading-[30px]">
-                            {`You can buy and sell cryptocurrencies on exchanges
-                            or through peer-to-peer trading platforms. When
-                            buying or selling cryptocurrencies, it is important
-                            to do your research and understand the risks
-                            involved. You should also ensure that you are using
-                            a secure platform, as there are some scams that
-                            could lead to you losing your money.`.slice(0, 151)}
-                            ...
+                            Crypto buy & sell is a convenient way to purchase
+                            and sell digital assets faster and more securely. It
+                            provides access to a wide selection of crypto coins
+                            and tokens so you can easily find what you are
+                            looking for.
                         </p>
                     </div>
                 </div>

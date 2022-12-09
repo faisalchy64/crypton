@@ -20,7 +20,7 @@ function Features() {
                 data-aos="fade-up"
                 data-aos-duration="3000"
             >
-                <div className="h-[450px] flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 antialiased hover:border-t-2 hover:border-b-2  hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
+                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 antialiased hover:border-t-2 hover:border-b-2  hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
                     <img
                         src={exchange}
                         alt=""
@@ -30,37 +30,32 @@ function Features() {
                         Instant Exchage
                     </h4>
                     <p className="text-center text-sm text-gray-500 leading-[30px]">
-                        {`A trusted and secure bitcoin and crypto exchange. Get
-                        started with the easiest and most secure platform to
-                        buy, sell, trade, and earn cryptocurrencies.`.slice(
-                            0,
-                            101
-                        )}
-                        ...
+                        Crypto instant exchange allows users to quickly and
+                        securely convert one cryptocurrency to another at
+                        real-time market prices with no registration or account
+                        needed.
                     </p>
                 </div>
-                <div className="h-[450px] flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
+                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
                     <img src={secure} alt="" className="w-[165px] h-[165px]" />
                     <h4 className="text-lg font-bold text-center text-indigo-1000">
                         Safe & Secure
                     </h4>
                     <p className="text-center text-sm text-gray-500 leading-[30px]">
-                        {`The technology that powers our platform was developed
-                        with industry-leading security and encryption at its
-                        core.`.slice(0, 101)}
-                        ...
+                        Crypto wallets are secure and safe, offering multi-level
+                        encryption, two-factor authentication, and secure
+                        backups, making sure your funds and data stay safe.
                     </p>
                 </div>
-                <div className="h-[450px] flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
+                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
                     <img src={trading} alt="" className="w-[165px] h-[165px]" />
                     <h4 className="text-lg font-bold text-center text-indigo-1000">
                         Instant Trading
                     </h4>
                     <p className="text-center text-sm text-gray-500 leading-[30px]">
-                        {`Bitcoin USD price, real-time (live) charts, news and
-                        videos. Learn about BTC value, bitcoin cryptocurrency,
-                        crypto trading, and more.`.slice(0, 101)}
-                        ...
+                        Crypto instant trading makes it easy to buy and sell
+                        cryptocurrencies quickly and securely, with no waiting
+                        and no hassles.
                     </p>
                 </div>
             </div>
