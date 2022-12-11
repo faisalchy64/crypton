@@ -20,7 +20,7 @@ function Features() {
                 data-aos="fade-up"
                 data-aos-duration="3000"
             >
-                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2  hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
+                <div className="md:h-[500px] flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2  hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
                     <img
                         src={exchange}
                         alt=""
@@ -34,7 +34,7 @@ function Features() {
                         to buy and sell cryptocurrencies quickly and easily.
                     </p>
                 </div>
-                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
+                <div className="md:h-[500px] flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
                     <img src={secure} alt="" className="w-[165px] h-[165px]" />
                     <h4 className="text-lg font-bold text-center text-indigo-1000">
                         Safe & Secure
@@ -45,7 +45,7 @@ function Features() {
                         integrity of transactions.
                     </p>
                 </div>
-                <div className="flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
+                <div className="md:h-[500px] flex flex-col items-center gap-y-5 bg-white px-[50px] py-10 hover:scale-110 hover:border-t-2 hover:border-b-2 hover:border-blue-1000 transition-all duration-500 shadow-card rounded-3xl">
                     <img src={trading} alt="" className="w-[165px] h-[165px]" />
                     <h4 className="text-lg font-bold text-center text-indigo-1000">
                         Instant Trading
