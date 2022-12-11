@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import blue from "../assets/logos/blue-logo.png";
 import white from "../assets/logos/white-logo.png";
 
 function Navbar() {
     const [toggle, setToggle] = useState(false);
-    const [selected, setSelected] = useState("/");
     const [position, setPosition] = useState(0);
+    const { pathname } = useLocation();
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
@@ -43,31 +43,25 @@ function Navbar() {
                         position >= 50 ? "text-indigo-1000" : "text-white"
                     }`}
                 >
-                    <li
-                        className={selected === "/" ? "text-blue-1000" : ""}
-                        onClick={() => setSelected("/")}
-                    >
+                    <li className={pathname === "/" ? "text-blue-1000" : ""}>
                         <Link to="/">Home</Link>
                     </li>
                     <li
-                        className={selected === "/blog" ? "text-blue-1000" : ""}
-                        onClick={() => setSelected("/blog")}
+                        className={pathname === "/blog" ? "text-blue-1000" : ""}
                     >
                         <Link to="/blog">Blog</Link>
                     </li>
                     <li
                         className={
-                            selected === "/contact" ? "text-blue-1000" : ""
+                            pathname === "/contact" ? "text-blue-1000" : ""
                         }
-                        onClick={() => setSelected("/contact")}
                     >
                         <Link to="/contact">Contact</Link>
                     </li>
                     <li
                         className={
-                            selected === "/about" ? "text-blue-1000" : ""
+                            pathname === "/about" ? "text-blue-1000" : ""
                         }
-                        onClick={() => setSelected("/about")}
                     >
                         <Link to="/about">About</Link>
                     </li>
@@ -108,39 +102,32 @@ function Navbar() {
                     }`}
                     onClick={() => setToggle(!toggle)}
                 >
-                    <li
-                        className={selected === "/" ? "text-blue-1000" : ""}
-                        onClick={() => setSelected("/")}
-                    >
+                    <li className={pathname === "/" ? "text-blue-1000" : ""}>
                         <Link to="/">Home</Link>
                     </li>
                     <li
-                        className={selected === "/blog" ? "text-blue-1000" : ""}
-                        onClick={() => setSelected("/blog")}
+                        className={pathname === "/blog" ? "text-blue-1000" : ""}
                     >
                         <Link to="/blog">Blog</Link>
                     </li>
                     <li
                         className={
-                            selected === "/contact" ? "text-blue-1000" : ""
+                            pathname === "/contact" ? "text-blue-1000" : ""
                         }
-                        onClick={() => setSelected("/contact")}
                     >
                         <Link to="/contact">Contact</Link>
                     </li>
                     <li
                         className={
-                            selected === "/about" ? "text-blue-1000" : ""
+                            pathname === "/about" ? "text-blue-1000" : ""
                         }
-                        onClick={() => setSelected("/about")}
                     >
                         <Link to="/about">About</Link>
                     </li>
                     <li
                         className={
-                            selected === "/login" ? "text-blue-1000" : ""
+                            pathname === "/login" ? "text-blue-1000" : ""
                         }
-                        onClick={() => setSelected("/login")}
                     >
                         <Link to="/login">Login</Link>
                     </li>
