@@ -4,7 +4,10 @@ import three from "../assets/blogs/three.png";
 
 function Blog() {
     return (
-        <section className="py-20">
+        <section className="py-10 md:py-20">
+            <h1 className="text-3xl md:text-4xl font-bold text-center text-indigo-1000 px-5 mb-10">
+                Read some topics here
+            </h1>
             <div className="w-4/5 grid md:grid-cols-2 gap-5 mx-auto">
                 {/* one */}
                 <div className="group shadow-card rounded-xl overflow-hidden">
