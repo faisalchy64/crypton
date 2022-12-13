@@ -53,13 +53,6 @@ function Navbar() {
                     </li>
                     <li
                         className={
-                            pathname === "/contact" ? "text-blue-1000" : ""
-                        }
-                    >
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                    <li
-                        className={
                             pathname === "/about" ? "text-blue-1000" : ""
                         }
                     >
@@ -109,13 +102,6 @@ function Navbar() {
                         className={pathname === "/blog" ? "text-blue-1000" : ""}
                     >
                         <Link to="/blog">Blog</Link>
-                    </li>
-                    <li
-                        className={
-                            pathname === "/contact" ? "text-blue-1000" : ""
-                        }
-                    >
-                        <Link to="/contact">Contact</Link>
                     </li>
                     <li
                         className={
