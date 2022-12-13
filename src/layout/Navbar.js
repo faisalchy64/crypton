@@ -134,7 +134,7 @@ function Navbar() {
                 </ul>
 
                 <Link
-                    to="/login"
+                    to="/signup"
                     className={`hidden md:block px-10 py-3.5 rounded-full ${
                         position >= 50
                             ? "bg-blue-1000 text-white hover:bg-indigo-1000 hover:text-white"
